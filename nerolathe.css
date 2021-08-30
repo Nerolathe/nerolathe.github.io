@@ -1,0 +1,21 @@
+body {
+    background-color: #272822;
+    color: #F8F8F2;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+
+.blinking {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% { opacity: 0; }
+}
+
+.beige  { color: #FFE792; }
+.pink   { color: #F92672; }
+.blue   { color: #66D9EF; }
+.green  { color: #A6E22E; }
+.orange { color: #FD971F; }
+.purple { color: #AE81FF; }
